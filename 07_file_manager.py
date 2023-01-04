@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import sys
 import core
 from guess_num import person_guess
@@ -14,7 +16,8 @@ else:
         try:
             core.copy_item(sys.argv[2], sys.argv[3])
         except IndexError:
-            print('Для выполнения этой функции необходимо указать два параметра')
+            print('Для выполнения этой функции необходимо указать два '
+                  'параметра')
     elif command == 'create_d':
         try:
             core.create_dir(sys.argv[2])
@@ -52,7 +55,8 @@ else:
         print('copy - копирование файла или директории')
         print('delete - удаление файла или директории')
         print('change - изменение текущей директории')
-        print('play - игра "Угадай число", уточните, кто угадывает, через пробел')
+        print('play - игра "Угадай число", уточните, кто угадывает, через '
+              'пробел')
         print('user - угадывает пользователь, comp - угадывает компьютер')
     
 core.save_info('Конец')
