@@ -1,4 +1,8 @@
-# Даны два списка фруктов. Получить список фруктов, присутствующих в обоих исходных списках.
+#!/usr/bin/env python3
+
+# Даны два списка фруктов. Получить список фруктов, присутствующих в обоих
+# исходных списках.
+
 from random import sample
 fruits = ['apple', 'apricot', 'banana', 'blueberries', 'cherry', 'coconut',
           'grape', 'kiwi', 'mango', 'orange', 'pear', 'pineapple', 'plum',

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import random
 
 
@@ -8,7 +10,7 @@ def person_guess():
     while guess != number:
         print('>' if number > guess else '<')
         guess = int(input())
-    print('Победа! Загаданное число {}.'.format(number))
+    print(f'Победа! Загаданное число {number}')
 
 
 if __name__ == '__main__':
